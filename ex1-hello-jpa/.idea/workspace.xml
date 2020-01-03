@@ -1,7 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="200ac3f4-5fc5-448a-ad7c-c51259f25d62" name="Default Changelist" comment="" />
+    <list default="true" id="200ac3f4-5fc5-448a-ad7c-c51259f25d62" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Locker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hellojpa/MemberProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hellojpa/RoleType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Team.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/jpashop.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/java/jpabook/jpashop/JpaMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/java/jpabook/jpashop/domain/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/java/jpabook/jpashop/domain/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/java/jpabook/jpashop/domain/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/java/jpabook/jpashop/domain/OrderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/java/jpabook/jpashop/domain/OrderStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex1-hello-jpa.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ex1-hello-jpa.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/JpaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/JpaMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hellojpa/JpaMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hellojpa/JpaMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hellojpa/Member.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hellojpa/Member.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +41,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -30,6 +61,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -86,6 +118,10 @@
       <option name="presentableId" value="Default" />
       <updated>1576750630855</updated>
       <workItem from="1576750637842" duration="6568000" />
+      <workItem from="1577967752661" duration="5495000" />
+      <workItem from="1577986890588" duration="1213000" />
+      <workItem from="1577989348231" duration="4099000" />
+      <workItem from="1577998961944" duration="3834000" />
     </task>
     <servers />
   </component>
@@ -101,25 +137,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="179" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1576752433547" />
-    <state x="0" y="409" key="#com.intellij.ide.util.MemberChooser" timestamp="1576798404661">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="0" y="194" key="#com.intellij.ide.util.MemberChooser" timestamp="1577994513005">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="0" y="194" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1577994513005" />
     <state x="0" y="409" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1576798404661" />
-    <state width="1478" height="181" key="GridCell.Tab.0.bottom" timestamp="1576800959911">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="542" y="276" key="FileChooserDialogImpl" timestamp="1577973545834">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="542" y="276" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1577973545834" />
+    <state width="915" height="85" key="GridCell.Tab.0.bottom" timestamp="1578005464673">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="915" height="85" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1578005464673" />
     <state width="1478" height="181" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1576800959911" />
-    <state width="1478" height="181" key="GridCell.Tab.0.center" timestamp="1576800959910">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="915" height="85" key="GridCell.Tab.0.center" timestamp="1578005464673">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="915" height="85" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1578005464673" />
     <state width="1478" height="181" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1576800959910" />
-    <state width="1478" height="181" key="GridCell.Tab.0.left" timestamp="1576800959910">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="915" height="85" key="GridCell.Tab.0.left" timestamp="1578005464672">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="915" height="85" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1578005464672" />
     <state width="1478" height="181" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1576800959910" />
-    <state width="1478" height="181" key="GridCell.Tab.0.right" timestamp="1576800959911">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="915" height="85" key="GridCell.Tab.0.right" timestamp="1578005464673">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="915" height="85" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1578005464673" />
     <state width="1478" height="181" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1576800959911" />
+    <state x="527" y="366" key="com.intellij.ide.util.TipDialog" timestamp="1577968927043">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="527" y="366" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1577968927043" />
+    <state x="204" y="202" key="new project wizard" timestamp="1577974496073">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="204" y="202" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1577974496073" />
+    <state x="545" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1577989369171">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="545" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1577989369171" />
   </component>
 </project>

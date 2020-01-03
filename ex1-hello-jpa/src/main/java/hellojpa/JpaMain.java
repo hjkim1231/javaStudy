@@ -16,10 +16,40 @@ public class JpaMain {
 
         try {
 
+            Team team = new Team();
+            team.setName("TeamA");
+            em.persist(team);
+
+            Member member = new Member();
+            member.setUsername("Member1");
+           // member.setTeam(team);
+          //  member.changeTeam(team);
+            em.persist(member);
+
+            team.addMember(member);
+
+            em.flush();
+            em.clear();
+
+            Member findMember = em.find(Member.class, member.getId());
+
+
+
+            List<Member> members =  findMember.getTeam().getMembers();
+
+            for(Member m : members){
+                System.out.println("m = " + m.getUsername());
+            }
+
+            //Team findTeam = findMember.getTeam();
+            //System.out.println("findTeam = " + findTeam.getName());
+
+            ;
+
             //등록
-            //Member member = new Member();
-            //member.setId(2L);
-            //member.setName("helloB");
+           // Member member = new Member();
+            //member.setId("ID_A");
+            //member.setName("C");
             //em.persist(member);
 
 
@@ -35,7 +65,7 @@ public class JpaMain {
 
             //삭제
             //em.remove(findMember);
-
+            /*
            List<Member> results =  em.createQuery("select m from Member as m ", Member.class)
                    .setFirstResult(0)
                    .setMaxResults(1)
@@ -45,6 +75,8 @@ public class JpaMain {
             {
                 System.out.println("member.name = " + member.getName());
             }
+
+             */
 
 
 
